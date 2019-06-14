@@ -1,0 +1,367 @@
+*{
+	box-sizing: border-box;
+}
+header{
+	background-image: url(../img/004_01.png);
+	background-size: cover;
+	height: 765px;
+	background-position: top
+}
+.nav-mean{
+	display: flex;
+	flex-wrap: nowrap;
+	align-content: flex-start;
+}
+ul.ul-nav{
+	width:100%;
+	justify-content: space-between;
+}
+ul.ul-login{
+    float: right;
+}
+.navbar{
+	padding: 1rem 1rem;
+	background-color: transparent !important
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #000;
+}
+.navbar ul li a i{
+	color: #42ad2b
+}
+.navbar img{
+	height: 50px;
+}
+.navbar ul li a{
+	flex-grow: 1;
+	text-align: center;
+}
+.navbar ul li .login{
+	color: #42ad2b !important;
+	border: 1px solid #42ad2b;
+	border-radius: 20px;
+	padding: 3px 10px;
+	margin-top: 3px;
+	font-weight: bold 
+}
+@media (min-width: 992px){
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: .5rem;
+    padding-left: .5rem;
+}
+}
+.login-box{
+	margin-right: 30px;
+	color: #42ad2b !important;
+	margin-top: 407px;
+}
+.login-box p{
+	margin: 0;
+
+}
+.login-box h2{
+	font-size: 21px
+}
+.login-box input{
+	margin: 0;
+	border-radius: 25px;
+	border-color: #42ad2b;
+	background-color: #eaf5e8;
+}
+.login-box input::placeholder{
+	color: #42ad2b
+}
+.login-box .btn{
+	background-color: #42ad2b;
+	color: #f1faef;
+	padding: 7px 30px;
+	border-radius: 25px;
+	margin-top: 15px;
+    margin-left: 100px;
+}
+/*************************************************/
+
+section{
+	padding: 50px 0;
+}
+
+.what{
+	background-color: #42ad2b;
+	color: #fff
+}
+.section-head p{
+	margin: 0;
+	font-size: 15px;
+	color: rgba(255, 255, 255, .5)
+}
+.section-head h2{
+	margin: 0;
+	font-size: 25px;
+	color: #fff
+}
+
+.what .col-md-2{
+	margin: 20px 0;
+	padding: 20px;
+	text-align: center 
+}
+.what .img-holder{
+	position: relative
+}
+.what .img-holder i{
+	position: absolute;
+	top: 30%;
+	font-size: 35px;
+	left: 40%;
+}
+img{
+	max-width: 100%;
+}
+/**************************************/
+.views .row{
+	margin: 30px 0
+}
+.views .owl-theme .owl-controls .owl-page span{
+	background-color: #43ae2c;
+}
+/************************************/
+
+footer{
+	background-color: #43ae2c;
+	margin-top: 60px;
+	padding-top: 70px;
+	background-image: url(../img/005_29.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-position: bottom;
+}
+footer .logo-holder{
+	height: 100%;
+}
+footer .contact-form{
+	margin-bottom: 50px;
+	color: #eee;
+	border-left: 1px solid rgba(255, 255, 255, .5);
+	padding: 0 40px
+}
+footer .contact-form input, footer .contact-form textarea{
+	border-radius: 30px;
+	background-color: rgba(255, 255, 255, .6);
+	border: 1px solid #43ae2c
+}
+footer .contact-form input:focus, footer .contact-form textarea:focus{
+	
+	background-color: rgba(255, 255, 255, .7)
+}
+footer .contact-form input.submit-btn{
+	background-color: #eee;
+	color: #42ad2b;
+	padding: 10px 35px;
+}
+footer .contact-form h2{
+	color: #fff
+}
+footer p{
+	font-weight: bold;
+	font-size: 18px;
+	color: #fff;
+}
+footer ul{
+	list-style: none;
+	padding-left: 0;
+}
+footer ul li{
+	padding-bottom: 5px;
+}
+footer ul li a{
+	color: #fff;
+}
+footer ul li a i{
+	border: 1px solid #fff;
+	padding: 5px;
+	border-radius: 50%;
+	font-size: 14px;
+	margin-right: 5px;
+	margin-bottom: 2px;
+	width: 25px;
+	height: 25px;
+}
+footer ul.social-media{
+	margin-top: 15px;
+}
+footer ul.social-media li{
+	display: inline-block;
+	margin-left: 11px;
+}
+footer .footer-test{
+	margin-bottom: 20px;
+}
+footer .bottom-footer{
+	padding-top: 20px;
+	margin-bottom: 100px;
+}
+footer .bottom-footer{
+	color: #fff;
+}
+footer .bottom-footer span{
+	color: #fff;
+	padding-right: 10px;
+}
+footer .bottom-footer a{
+	color: #fff;
+}
+footer .bottom-footer .line2{
+	border: 1px solid #fff;
+	margin-bottom: 30px;
+    margin-top: 15px;
+}
+
+
+/******************************** Responsive *****************************************/
+
+@media (max-width:1024px){
+	.navbar-expand-lg .navbar-nav .nav-link{
+		padding-right: 0.5rem;
+		font-size: 14px;
+	}
+	.body .card-tester .card-body .pounds span{
+		font-size: 13px;
+	}
+	.body .card-tester p {
+       font-size: 12px;
+    }
+    .what .img-holder i{
+    	top: 28%;
+        font-size: 32px;
+        left: 36%;
+    }
+}
+@media (max-width:900px){
+	.form-body .my-5{
+	   margin-bottom: 5px !important;
+	   margin-top: 20px !important;
+    }
+    .body ul.sub-list a{
+    	font-size: 14px;
+    }
+    .navbar-toggler{
+    	position: absolute;
+    	top: 25px;
+    	right: 25px;
+    }
+    header{
+    	background-size: 100% 100%;
+    }
+}
+@media (max-width:600px){
+	.pagination a.arrow2{
+		margin-right: 0;
+	}
+	.pagination ul a.arrow3{
+		margin-left: 0;
+	}
+	.pagination ul{
+		margin-bottom: 10px;
+	}
+	.p1 a{
+		width: 20px;
+		height: 20px;
+		line-height: 20px;
+	}
+	.pounds img{
+		margin-top: -40px;
+	}
+}
+@media (max-width:370px){
+	.pagination ul a{
+		font-size: 11px;
+	}
+	.p1 a{
+		width: 15px;
+		height: 15px;
+		line-height: 15px;
+	}
+}
+
+/********************************************************/
+/*======================== Media Query Responsive ================*/
+@media(max-width: 991px){
+	.navbar {
+		background-color: #fff !important;
+	}
+	.navbar-light .navbar-brand{
+		width: 55px;
+	}
+	.navbar-light .navbar-nav .nav-link{
+		color: #000
+	}
+	.navbar-light .navbar-nav .nav-link:hover{
+		color: #42ad2b
+	}
+	.what .img-holder i {
+		
+		top: 28%;
+		font-size: 20px;
+		left: 40%;
+	}
+	.navbar-light .navbar-toggler {
+		border-color: #42ad2b;
+		color: #fff;
+	}
+	ul.ul-nav{
+		justify-content: normal;
+		width: 0;
+	}
+	ul.ul-login{
+		float: left;
+	}
+	.what p{
+		font-size: 11px;
+	}
+
+}
+
+
+@media(max-width: 767px){
+
+	.what .img-holder i {
+		
+		top: 28%;
+		font-size: 35px;
+		left: 37%;
+	}
+	.login-box{
+		float: right;
+		margin-right: 0;
+	}
+	.login-box p{
+		font-size: 12px;
+	}
+	.login-box h2 {
+        font-size: 16px;
+    }
+    .login-box input.w-50{
+    	width: 100% !important;
+    	font-size: 12px;
+    }
+	footer .contact-form{
+		padding-left: 0
+	}
+	footer .contact-form h2{
+		padding-top: 40px;
+	}
+}
+@media(max-width: 575px){
+	.what .img-holder i {
+		
+		top: 30%;
+		font-size: 45px;
+		left: 46%;
+	}
+	footer .contact-form{
+		border-left: none;
+	}
+	.what p{
+		font-size: 18px;
+	}
+}

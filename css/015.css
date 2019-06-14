@@ -1,0 +1,27 @@
+
+
+.body h4{
+	color: #098040;
+	margin-bottom: 40px;
+}
+.body .text p{
+	margin-bottom: 100px;
+}
+.body .last-h4{
+	margin-bottom: 15px;
+}
+.body .last-p{
+	font-size: 14px;
+}
+
+
+@media (max-width:1024px){
+	.body .last-p{
+		font-size: 13px;
+	}
+}
+@media (max-width:767px){
+	img{
+		margin-bottom: 10px;
+	}
+}

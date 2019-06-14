@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Company profile</title>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+
+ <!-- Include external CSS. -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.25.0/codemirror.min.css">
+ 
+    <!-- Include Editor style. -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/froala-editor/2.8.5/css/froala_editor.pkgd.min.css" rel="stylesheet" type="text/css" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/froala-editor/2.8.5/css/froala_style.min.css" rel="stylesheet" type="text/css" />
+<link href="css/editor.css" type="text/css" rel="stylesheet"/>
+
+
+	<link rel="stylesheet" type="text/css" href="css/buy.css">
+	<link rel="stylesheet" type="text/css" href="css/buy6.css">
+	<link rel="stylesheet" type="text/css" href="css/company-profile.css">
+</head>
+<body>
+	
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+<div class="container">
+
+		
+
+	<div class="col-md-1">
+		<ul class="navbar-nav mt-lg-0">
+		  	<li>
+		  		<a class="navbar-brand" href="#">
+		  		   <img src="img/log_03.png">
+		  	    </a>
+		    </li>
+		</ul>
+	</div>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  
+   
+   		
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+  	<div class="col-md-9">
+   	<div class="nav-mean">
+    <ul class="navbar-nav my-2 my-lg-0 ul-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#">HOME <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">ABOUT US</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">SELL/BUY <br> OFFERS</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">REQUESTED <br> SERVICES</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">BIDS</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">CONSULTANTS</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">
+        	<i class="far fa-envelope"></i>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">
+        	<i class="far fa-bell">
+        		<span class="badge badge-danger">.</span>
+        	</i>
+        </a>
+      </li>
+    </ul>
+  </div>
+
+   	</div>
+
+   	<div class="col-md-3">
+   	<ul class="navbar-nav my-2 my-lg-0 ul-login">
+
+   		<li class="nav-item">
+        <a class="nav-link" href="#">
+        	<img src="img/pro_03.png" class="img-fluid">
+        </a>
+      </li>
+      <!-- <li class="nav-item">
+        <a class="nav-link" href="#" style="padding-left: 0; padding-right:0">
+        	<span>Welcome! <br> Yara Adel <i class="fas fa-angle-down"></i> </span> 
+        </a>
+      </li> -->
+
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" style="padding-left: 0; padding-right:0" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <span>Welcome! <br> Yara Adel </span>
+        </a>
+        <div class="dropdown-menu text-left" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="#">Edit account</a>
+          <a class="dropdown-item" href="#">Change password</a>
+          <a class="dropdown-item" href="#">Edit company profile</a>
+          <a class="dropdown-item" href="#">Offers/Proposals manager</a>
+          <a class="dropdown-item" href="#">Bids</a>
+        </div>
+      </li>
+
+   	</ul>
+   </div>
+
+   </div>
+
+   
+
+	</div>
+
+</nav>
+
+<section class="top-nav">
+	<div class="container">
+		<span>Waste Marche</span>
+		<span> > </span>
+		<span>Edit company profile</span>
+	</div>
+</section>
+
+
+
+
+<section class="body">
+	<div class="container">
+		<div class="row">
+
+            <div class="col-md-12">
+            	<h3 class="form-head mt-4">Company Profile</h3>
+                <div class="class-form">
+                	<h3>Basic Information</h3>
+                       <form>
+							<div class="form-group row">
+							    <label for="inputPassword" class="col-sm-2 col-form-label">Title</label>
+							    <div class="col-sm-9">
+							      <input type="text" class="form-control" id="inputPassword">
+							    </div>
+						    </div>
+						    <div class="form-group row">
+							    <label for="inputPassword" class="col-sm-2 col-form-label">Unique Name
+							    </label>
+							    <div class="col-sm-9">
+							      <input type="text" class="form-control" id="inputPassword">
+							      <span class="error">http://www.wastemarche.com/waste-march-239</span>
+							    </div>
+						    </div>
+						    <div class="form-group row">
+							    <label for="inputPassword" class="col-sm-2 col-form-label">Contact Phone
+							    </label>
+							    <div class="col-sm-9">
+							      <input type="number" class="form-control" id="inputPassword">
+							    </div>
+						    </div>
+						    <div class="form-group row">
+							    <label for="inputPassword" class="col-sm-2 col-form-label">Contact Email / Notification Email</label>
+							    <div class="col-sm-9">
+							      <input type="email" class="form-control" id="inputPassword">
+							    </div>
+						    </div>
+						    <div class="form-group row">
+							    <label for="inputPassword" class="col-sm-2 col-form-label">Type of company</label>
+							    <div class="col-sm-9">
+							      <select id="inputState" class="form-control">
+							        <option></option>
+							        <option>...</option>
+							      </select>
+							    </div>
+						    </div>
+						    <div class="form-group row">
+							    <label for="inputPassword" class="col-sm-2 col-form-label">Contact Address
+							    </label>
+							    <div class="col-sm-9">
+							      <input type="text" class="form-control" id="inputPassword">
+							    </div>
+							    <div class="col-sm-1">
+							      <a href="#"><img src="img/icons8-google-maps-48.png" width="35px"></a>
+							    </div>
+						    </div>
+					</form>
+                </div>
+
+                <div class="class-form">
+                	<h3>About</h3>
+                	<div id="txtEditor"></div>
+                </div>
+
+                <div class="class-form">
+                	<h3>Main Image</h3>
+                	<!-- <div class="form-group text-right">
+					    <input type="file" class="form-control-file" id="exampleFormControlFile1">
+					</div> -->
+					<div class="file-upload">
+  <div class="file-select">
+    <input type="file" name="chooseFile" id="chooseFile">
+    <div class="file-select-button" id="fileName">Choose File</div>
+  </div>
+</div>
+                </div>
+
+                <div class="text-right">
+                	<button class="btn save">Save</button>
+                	<button class="btn btn-default cancel">Cancel</button>
+                </div>
+
+		   </div>
+		</div>
+	</div>
+</section>
+
+
+
+
+
+<footer>
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-3 col-md-6 col-sm-12 footer-test">
+				<p>HELP</p>
+				<ul>
+					<li><a href="#">About Us</a></li>
+					<li><a href="#">Terms and condition</a></li>
+					<li><a href="#">FAQ</a></li>
+					<li><a href="#">Contact Us</a></li>
+				</ul>
+			</div>
+			<div class="col-lg-3 col-md-6 col-sm-12 footer-test">
+				<p>SERVICES</p>
+				<ul>
+					<li><a href="#">Sell waste</a></li>
+					<li><a href="#">Buy waste</a></li>
+					<li><a href="#">Dispose waste</a></li>
+					<li><a href="#">Transport waste</a></li>
+					<li><a href="#">Request Consultation</a></li>
+				</ul>
+			</div>
+			<div class="col-lg-3 col-md-6 col-sm-12 footer-test">
+				<p>Contact info</p>
+				<ul>
+					<li>
+						<a href="#">
+						   <i class="fas fa-phone"></i> +201065312043
+					    </a>
+				    </li>
+					<li>
+						<a href="#">
+						   <i class="fas fa-envelope"></i> info@wastemarche.com
+					    </a>
+				    </li>
+				</ul>
+			</div>
+			<div class="col-lg-3 col-md-6 col-sm-12 footer-test">
+				<img src="img/log_34.png">
+				<ul class="social-media">
+					<li>
+						<a href="#">
+						   <i class="fab fa-instagram"></i>
+					    </a>
+				    </li>
+					<li>
+						<a href="#">
+						   <i class="fab fa-facebook-f" style="padding-left: 7px"></i>
+					    </a>
+				    </li>
+				    <li>
+						<a href="#">
+						   <i class="fab fa-twitter"></i>
+					    </a>
+				    </li>
+				</ul>
+			</div>
+
+			<div class="col-md-12 col-sm-12 text-center bottom-footer">
+				<div>
+					<span><a href="#">English</a></span>
+					<span> | </span>
+					<span><a href="#"> العربية  </a></span>
+				</div>
+				<div class="line2"></div>
+				<div>
+					Copyright to WasteMarche &copy; 2018 | <a href="#">Home</a> | <a href="#">About Us</a> | <a href="#"> Terms and condition</a> | <a href="#">FAQ</a> | <a href="#">Contact Us
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+
+
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+
+<!-- Include external JS libs. -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.25.0/codemirror.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.25.0/mode/xml/xml.min.js"></script>
+ 
+    <!-- Include Editor JS files. -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/froala-editor/2.8.5/js/froala_editor.pkgd.min.js"></script>
+ 
+    <!-- Initialize the editor. -->
+    <script> $(function() { $('textarea').froalaEditor() }); </script>
+
+    <script type="text/javascript">
+    	$('#chooseFile').bind('change', function () {
+  var filename = $("#chooseFile").val();
+  if (/^\s*$/.test(filename)) {
+    $(".file-upload").removeClass('active');
+    $("#noFile").text("No file chosen..."); 
+  }
+  else {
+    $(".file-upload").addClass('active');
+    $("#noFile").text(filename.replace("C:\\fakepath\\", "")); 
+  }
+});
+
+    </script>
+<script src="js/editor.js"></script>
+
+<script type="text/javascript">
+$(document).ready( function() {
+$("#txtEditor").Editor();                   
+});
+</script>
+
+</body>
+</html>

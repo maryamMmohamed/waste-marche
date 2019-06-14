@@ -1,0 +1,25 @@
+
+
+
+.reviews .top-text span.user{
+	font-weight: bold;
+}
+.reviews .top-text span{
+	font-size: 15px;
+}
+.reviews .top-text{
+	margin-bottom: 15px;
+}
+.reviews .bottom-text span{
+	font-size: 15px; 
+	padding-right: 10px;
+}
+.top-review h3{
+	padding-left: 30px;
+}
+
+@media (max-width:370px){
+	.reviews .top-text span , .reviews .bottom-text span{
+		font-size: 13px;
+	}
+}

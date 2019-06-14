@@ -1,0 +1,80 @@
+body , html{
+	overflow-x: hidden;
+}
+
+
+.class-form{
+	background-color: #fff;
+	border: 1px solid #b7b7b7;
+	margin-top: 20px;
+}
+.form-head{
+	color: #098040;
+	font-size: 20px;
+}
+.class-form h3{
+	color: #000;
+	font-size: 18px;
+}
+.class-form label{
+	color: #000;
+}
+.class-form select{
+    border: 1px solid #098040;
+    border-radius: 25px;
+    background-color: #eaf5e8;
+}
+.class-form span.error{
+	color: red
+}
+
+
+
+
+/****** Main image ******/
+
+.file-upload{display:block;text-align:center;font-family: Helvetica, Arial, sans-serif;font-size: 12px;}
+.file-upload .file-select{border-radius: 25px;display:block;border: 1px solid #098040;color: #34495e;cursor:pointer;height:40px;line-height:40px;text-align:right;background:#eaf5e8;overflow:hidden;position:relative;}
+.file-upload .file-select .file-select-button{margin-right: 10px;border-radius: 25px;border: 1px solid #098040;background:#fff;padding:0 10px;display:inline-block;height:25px;line-height:25px;}
+.file-upload .file-select .file-select-name{line-height:40px;display:inline-block;padding:0 10px;}
+.file-upload.active .file-select{border-color:#3fa46a;transition:all .2s ease-in-out;-moz-transition:all .2s ease-in-out;-webkit-transition:all .2s ease-in-out;-o-transition:all .2s ease-in-out;}
+.file-upload.active .file-select .file-select-button{background:#3fa46a;color:#FFFFFF;transition:all .2s ease-in-out;-moz-transition:all .2s ease-in-out;-webkit-transition:all .2s ease-in-out;-o-transition:all .2s ease-in-out;}
+.file-upload .file-select input[type=file]{z-index:100;cursor:pointer;position:absolute;height:100%;width:100%;top:0;left:0;opacity:0;filter:alpha(opacity=0);}
+.file-upload .file-select.file-select-disabled{opacity:0.65;}
+
+
+/* buttons */
+
+.save{
+	background-color: #42ad2b !important;
+	border: 1px solid #42ad2b !important;
+	border-radius: 25px !important;
+	color: #fff !important;
+	width: 100px;
+	margin-right: 8px
+}
+.cancel{
+	background-color: #a5a5a5 !important;
+	border: 1px solid #a5a5a5 !important;
+	border-radius: 25px !important;
+	color: #fff !important;
+	width: 100px;
+}
+
+/***********************************/
+.line-control-status-bar{
+	display: none;
+}
+#menuBarDiv_txtEditor .btn {
+    background-color: #ffffff !important;
+    color: #858585 !important;
+    border-color: #eeeeee !important;
+    padding: 5px 10px !important;
+    border-radius: 0 !important ;
+}
+
+
+
+
+
+/******************************/
